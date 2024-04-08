@@ -42,8 +42,8 @@ const ResultPage = () => {
           </div>
           <div className="flex items-center">
             <img
-              src="https://tse3.mm.bing.net/th?id=OIP.xEDm7drmd96augSvTfxDaQHaEo&pid=Api&P=0&h=180w=170"
-              alt=""
+              src="https://img.freepik.com/premium-psd/psd-knowledgem-idea-insights_904424-263.jpg?w=740"
+              alt="Foundational Math"
               className="w-[170px] h-[150px]"
             />
           </div>
@@ -57,8 +57,8 @@ const ResultPage = () => {
           </div>
           <div className="flex items-center">
             <img
-              src="https://tse3.mm.bing.net/th?id=OIP.xEDm7drmd96augSvTfxDaQHaEo&pid=Api&P=0&h=180w=170"
-              alt=""
+              src="https://img.freepik.com/premium-psd/psd-knowledgem-idea-insights_904424-263.jpg?w=740"
+              alt="Mathematical Thinking"
               className="w-[170px] h-[150px]"
             />
           </div>

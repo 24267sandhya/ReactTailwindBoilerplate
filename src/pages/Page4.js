@@ -7,22 +7,22 @@ const data = [
   {
     darktext: "Arithmetic",
     lighttext: "Introductory",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EnglishSpotRabbitChocolate1(cropped).jpg/1200px-EnglishSpotRabbitChocolate1(cropped).jpg",
+    url: "https://res.cloudinary.com/picked/image/upload/q_60,h_600,f_auto/v1631195615/cms/how-to-solve-equations-with-fractions-1631195614",
   },
   {
     darktext: "Basic Alebra",
     lighttext: "Foundational",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EnglishSpotRabbitChocolate1(cropped).jpg/1200px-EnglishSpotRabbitChocolate1(cropped).jpg",
+    url: "https://sophialearning.s3.amazonaws.com/packet_logos/169936/original/FractionEquation.jpg",
   },
   {
     darktext: "Intermediate Algebra",
     lighttext: "Intermediate",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EnglishSpotRabbitChocolate1(cropped).jpg/1200px-EnglishSpotRabbitChocolate1(cropped).jpg",
+    url: "https://www.finalsite.com/uploaded/FridayFolder/quadratic_formula.png",
   },
   {
     darktext: "Calculus",
     lighttext: "Advanced",
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/EnglishSpotRabbitChocolate1(cropped).jpg/1200px-EnglishSpotRabbitChocolate1(cropped).jpg",
+    url: "https://images.fineartamerica.com/images-medium-large-5/differential-calculus-equation-science-photo-library.jpg",
   },
 ];
 
