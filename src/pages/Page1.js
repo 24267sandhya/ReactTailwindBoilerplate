@@ -37,17 +37,17 @@ const Page1 = () => {
   return (
     <>
       <ProgressBar/>
-      <section className="flex justify-center items-center pt-0">
+      <section className="flex justify-center items-center lg:pt-0 p-2">
         <div className="flex flex-col text-center">
-          <h1 className="font-sans font-bold text-[38px]">
+          <h1 className="font-sans font-bold text-[20px] lg:text-[38px]">
             Which describes you best?
           </h1>
-          <p className="p-5 text-[20px]">
+          <p className="p-1 lg:p-5 text-[12px] lg:text-[20px]">
             This will help us personalize your experience.
           </p>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center p-7">
+      <section className="flex flex-col justify-center items-center p-4 lg:p-7">
         {data.map((data) => (
           <> 
             <OptionCard

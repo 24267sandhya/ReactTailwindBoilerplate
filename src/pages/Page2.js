@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button";
 import ProgressBar from "../components/ProgressBar";
+import OptionCard from "../components/OptionCard";
 
 const data = [
   {
@@ -29,27 +30,24 @@ const Page2 = () => {
   return (
     <>
        <ProgressBar/>
-      <section className="flex justify-center items-center pt-0">
+      <section className="flex justify-center items-center lg:pt-0 p-2">
         <div className="flex flex-col text-center">
-          <h1 className="font-sans font-bold text-[38px]">
+          <h1 className="font-sans font-bold text-[20px] lg:text-[38px]">
             Which are you most interested in?
           </h1>
-          <p className="p-5 text-[20px]">
+          <p className="p-1 lg:p-5 text-[12px] lg:text-[20px]">
           Choose just one. This will help us get you started (but won’t limit your experience)
           </p>
         </div>
       </section>
-      <section className="flex flex-col justify-center items-center p-7">
+      <section className="flex flex-col justify-center items-center p-4 lg:p-7">
         {data.map((data) => (
           <> 
-            <div className="w-[760px] h-[80px] border border-gray-300 rounded-md m-2 flex flex-row hover:border-dotted items-center">
-              <div className="w-[80px] flex justify-center items-center mx-[-1px]">
-              <img src={data.url} alt="mountain" className="w-[35px] h-[35px]"/>
-              </div>
-              <div className="text-[20px]">
-              {data.darktext}
-              </div>
-            </div>
+            <OptionCard
+              darktext={data.darktext}
+              lighttext={data.lighttext}
+              url={data.url}
+            />
           </>
         ))}
       </section>

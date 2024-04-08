@@ -1,5 +1,17 @@
 import React, { useEffect, useState } from "react";
 import LoadingPage from "./LoadingPage";
+import ResultCard from "../components/ResultCard";
+
+const data = [
+  {
+    darktext: "Foundational Math",
+    lighttext: "Build your fundational skills in algebra, geometry, and probability"
+},
+{
+  darktext: "Mathematical Thinking",
+  lighttext: "Build your fundational skills in algebra, geometry, and probability"
+},
+]
 
 const ResultPage = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -17,52 +29,29 @@ const ResultPage = () => {
       isLoading? (<LoadingPage/>):
       (
         <>
-        <section className="flex justify-center items-center pt-0">
-        <div className="flex flex-col text-center mt-40">
-          <h1 className="font-sans font-bold text-[46px]">
+        <section className="flex justify-center items-center lg:pt-0 p-2">
+        <div className="flex flex-col text-center mt-12 lg:mt-40">
+          <h1 className="font-sans font-bold text-[20px] lg:text-[38px]">
             Learning paths based on your answers
           </h1>
-          <p className="p-5 text-[20px]">
+          <p className="p-1 lg:p-5 text-[12px] lg:text-[20px]">
             Choose one to get started. You can switch anytime.
           </p>
         </div>
       </section>
-      <section className="flex flex-row justify-center gap-[26px] mt-24 relative">
-        <div className="w-[520px] h-[226px] border border-gray-300 rounded-md flex justify-center p-5">
-          <div class="absolute w-[130px] h-[34px] top-[-20px] bg-yellow-500 p-2 rounded-lg">
-            <p className="text-[12px] flex justify-center font-semibold">
-              MOST POPULAR
-            </p>
-          </div>
-          <div className="w-3/5 flex items-center">
-            <p className="font-sans text-[20px] m-2">
-              <span className="font-semibold">Foundational Math</span> Build your foundational skills in algebra,
-              geometry, and probability.
-            </p>
-          </div>
-          <div className="flex items-center">
-            <img
-              src="https://img.freepik.com/premium-psd/psd-knowledgem-idea-insights_904424-263.jpg?w=740"
-              alt="Foundational Math"
-              className="w-[170px] h-[150px]"
+      <section className="flex flex-col items-center lg:flex-row justify-center lg:gap-[26px] mt-12 lg:mt-24 relative">
+       
+            <ResultCard
+              darktext="Foundational Math" 
+              lighttext="Build your foundational skills in algebra, geometry, and probability"
+              result={true}
             />
-          </div>
-        </div>
-        <div className="w-[520px] h-[226px] border border-gray-300 rounded-md flex flex-row p-5">
-          <div className="w-3/5 flex items-center">
-            <p className="font-sans text-[20px] m-2">
-              <span className="font-bold">Mathematical Thinking</span> Build your foundational skills in algebra,
-              geometry, and probability.
-            </p>
-          </div>
-          <div className="flex items-center">
-            <img
-              src="https://img.freepik.com/premium-psd/psd-knowledgem-idea-insights_904424-263.jpg?w=740"
-              alt="Mathematical Thinking"
-              className="w-[170px] h-[150px]"
+            <ResultCard
+              darktext="Mathematical Thinking" 
+              lighttext="Build your foundational skills in algebra, geometry, and probability"
+              result={false}
             />
-          </div>
-        </div>
+        
       </section>
         </>
       )
