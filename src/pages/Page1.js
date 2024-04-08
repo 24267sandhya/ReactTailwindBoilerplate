@@ -7,29 +7,29 @@ const data = [
   {
     darktext: "Student",
     lighttext: "or soon to be enrolled",
-    url: ""
+    url: "https://img.freepik.com/premium-vector/increase-economic-official-concept-pro-vector-illustration_678466-6.jpg?w=740"
   },
   {
     darktext: "Professional",
     lighttext: "pursuing a career",
-    url: ""
+    url: "https://img.freepik.com/free-vector/time-management-concept-landing-page_52683-24727.jpg?w=996"
   },
   {
     darktext: "Parent",
     lighttext: "of a school-age child",
-    url: ""
+    url: "https://img.freepik.com/free-vector/flat-illustration-international-day-families_23-2148471673.jpg?w=740"
   },
   {
     darktext: "Lifelong learning",
-    url: ""
+    url: "https://img.freepik.com/premium-vector/online-reading-online-library-concept_7737-1785.jpg?w=826"
   },
   {
     darktext: "Teacher",
-    url: ""
+    url: "https://img.freepik.com/premium-vector/hand-drawn-flat-teachers-day-illustration_23-2149070823.jpg?w=740"
   },
   {
     darktext: "Other",
-    url: ""
+    url: "https://img.freepik.com/premium-vector/young-man-is-holding-computer-his-hands-business-communication-concept-freelance-business-work-student-trendy-flat-vector-illustration-isolated-white-background_501069-2359.jpg?w=740"
   },
 ];
 

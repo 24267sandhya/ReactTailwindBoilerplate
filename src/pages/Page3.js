@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../components/Button";
-import Screenshot from "../assets/Screenshot 2023-09-03 211405.png";
 import ProgressBar from "../components/ProgressBar";
 
 const Page3 = () => {
@@ -10,7 +9,7 @@ const Page3 = () => {
       <div className="flex justify-center">
         <div className="w-[1/2] mt-10">
           <img
-            src={Screenshot}
+            src="https://img.freepik.com/premium-psd/presentation-data-creative-boy-activity_66255-1801.jpg?w=740"
             alt="bird"
             className="w-[322px] h-[496px] pl-0"
           />

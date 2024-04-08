@@ -1,10 +1,10 @@
-import Page4 from "./pages/Page4";
+import PageContainer from "./pages/PageContainer";
 
 
 function App() {
   return (
     <div>
-      <Page4/>
+      <PageContainer/>
     </div>
   );
 }

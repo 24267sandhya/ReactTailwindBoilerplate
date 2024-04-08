@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import LoadingPage from "./LoadingPage";
 
 const ResultPage = () => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    setIsLoading(true)
+    setTimeout(() => {
+        setIsLoading(false);
+    }, 4000)
+  }, []);
+
   return (
     <>
-      <section className="flex justify-center items-center pt-0">
+     {
+      isLoading? (<LoadingPage/>):
+      (
+        <>
+        <section className="flex justify-center items-center pt-0">
         <div className="flex flex-col text-center mt-40">
           <h1 className="font-sans font-bold text-[46px]">
             Learning paths based on your answers
@@ -50,6 +64,9 @@ const ResultPage = () => {
           </div>
         </div>
       </section>
+        </>
+      )
+     }
     </>
   );
 };
